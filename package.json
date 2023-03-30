@@ -1,0 +1,12 @@
+{
+  "name": "hellosimi",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "main.js",
+    "start": "node helloworld.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
