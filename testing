@@ -1,0 +1,46 @@
+
+'use scrpit'
+
+function callNameOne(name) {
+    console.log('name', name)
+}
+
+const callNameTwo = (arguments) => {
+    console.log('name', arguments.name)
+}
+
+const callNameAgain = (arguments, callNameAgainInside) => {
+  return callNameAgainInside('olatunde')
+}
+
+const callNameAgainInside = () => {
+
+}
+
+callNameOne('olatunde')
+callNameTwo('olatunde')
+callNameAgain('oltunde', (res) => {
+console.log('callNameAgainInside', res)
+})
+
+
+console.log(variable)
+
+let variable = 'Olatunde';
+let names = []
+
+names.forEach(element => {
+    
+});
+
+for (const key in names) {
+
+}
+
+for (let index = 0; index < names.length; index++) {
+    const element = array[index];
+    
+}
+
+names.map
+
