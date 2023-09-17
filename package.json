@@ -4,7 +4,7 @@
   "main": "main.js",
   "scripts": {
     "test": "main.js",
-    "start": "node wordcheckerrefined.js"
+    "start": "node roughsketch.js"
 
   
   },
@@ -12,3 +12,4 @@
   "license": "ISC",
   "description": ""
 }
+

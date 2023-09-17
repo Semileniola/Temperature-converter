@@ -29,23 +29,23 @@ const wordChecker = (wordsToClean) => {
     });
     console.log({cleanedWords});
     return cleanedWords.join(' ');
-    // let count = 0;
+     let count = 0;
 
-    // for (let i = 0; i <= storyWords.length; i++) {
-    //     storyLine = storyWords[i];
-    //     if (storyWords === unnecessaryWord){
-    //         storyWords[i] = ''; 
-    //     }
-    //     if (storyLine === misspelledWord){
-    //         let modifiedWords = storyLine.map(word => {
-    //             return word === misspelledWord ? newWord : word;
-    //           }).join(' ');
+     for (let i = 0; i <= storyWords.length; i++) {
+       storyLine = storyWords[i];
+        if (storyWords === unnecessaryWord){
+            storyWords[i] = ''; 
+        }
+         if (storyLine === misspelledWord){
+             let modifiedWords = storyLine.map(word => {
+                return word === misspelledWord ? newWord : word;
+               }).join(' ');
 
-    //           console.log(modifiedWords)
+               console.log(modifiedWords)
               
-    //     } else {
-    //         return 'Error'
-    //     }
+         } else {
+            return 'Error'
+        }
 
     //     if (storyLine === badWord){
     //         let replacement = storyLine.map(word => {
